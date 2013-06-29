@@ -22,7 +22,7 @@ RDEPEND="${DEPEND}
 	sys-fs/e2fsprogs
 	sys-libs/glibc
 	virtual/krb5
-	=dev-db/unixODBC-2.3.1[unicode]
+	=dev-db/unixODBC-2.3.1
 	"
 
 src_prepare() {
