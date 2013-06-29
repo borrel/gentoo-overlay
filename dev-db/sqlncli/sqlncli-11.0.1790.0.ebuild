@@ -5,7 +5,7 @@ EAPI=3
 
 inherit eutils rpm
 
-DESCRIPTION="Microsoft® SQL Server® ODBC Driver 1.0 for Linux"
+DESCRIPTION="Microsoft(c) SQL Server(c) ODBC Driver 1.0 for Linux"
 HOMEPAGE="http://www.microsoft.com/downloads/"
 SRC_URI="http://download.microsoft.com/download/6/A/B/6AB27E13-46AE-4CE9-AFFD-406367CADC1D/Linux6/sqlncli-11.0.1790.0.tar.gz"
 
@@ -22,7 +22,7 @@ RDEPEND="${DEPEND}
 	sys-fs/e2fsprogs
 	sys-libs/glibc
 	virtual/krb5
-	=dev-db/unixODBC-2.3.1[iconv-char-enc-utf8,iconv-ucode-enc-utf16le]
+	=dev-db/unixODBC-2.3.1[unicode]
 	"
 
 src_prepare() {
