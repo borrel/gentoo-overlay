@@ -1,0 +1,14 @@
+<repositories xmlns="" version="1.0">
+<repo quality="experimental" status="unofficial">
+<name>
+<![CDATA[ borrel-overlay ]]>
+</name>
+<description lang="en">
+<![CDATA[ My Custom overlay ]]>
+</description>
+<owner type="person">
+<email>michelkollenhoven@gmail.com</email>
+</owner>
+<source type="git">https://github.com/borrel/gentoo-overlay.git</source>
+</repo>
+</repositories>
